@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+label {
+	display:inline-block;
+	vertical-align:top;
+	text-align:right;
+	width:100px;
+	margin-right:25px;
+	margin-bottom:15px;
+}
+
+input {
+	display:inline-block;
+	margin-left:5px;
+	
+}
+
+#available_date{
+	width: 100px;
+	position: relative;
+	left:130px;
+}
+
+#button_finish{
+	position: relative;
+	top:30px;
+	left:130px;
+
+form {
+	width:450px;
+}

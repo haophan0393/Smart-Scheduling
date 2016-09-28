@@ -1,0 +1,77 @@
+/* Currently empty */
+
+body{
+	color: snow;
+	background-color: darkslategray;
+}
+
+#container{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+#header{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: green;
+	border-radius: 10px;
+}
+
+#leftmenu{
+	width: 140px;
+	height: 600px;
+	display: inline-block;
+	background-color: seagreen;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#content{
+	width: 960px;
+	display: inline-block;
+}
+
+#rightmenu{
+	width: 140px;
+	height: 600px;
+	display: inline-block;
+	background-color: seagreen;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#footer{
+	background-color: green;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.outline{
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.appstatus{
+	font-size: 24px;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+a:link{
+	font-size: 24px;
+	font-weight: bold;
+	color: snow;
+	text-decoration: none;
+	background-color: green;
+}
+a:visited{
+	font-size: 24px;
+	color: snow;
+}
+a:hover{
+	color: seagreen;
+	background-color: darkgreen;
+}
+a:active{
+	color: black;
+}
